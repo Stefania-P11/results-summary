@@ -208,3 +208,47 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+/* Meda Queries */
+
+@media (min-width: 800px){
+
+    body {
+
+        display:flex;
+        justify-content: center;
+        margin: 15% 10%;
+        
+    }
+
+    .final-score {
+
+        width:50%;
+        border-radius: 20px;
+        height:500px;
+        max-width: 400px; 
+        
+    }
+
+    .final-score span + div {
+
+        width: 150px;
+       
+    }
+    
+    .final-score p {
+      
+    }
+    .breakdown {
+
+        width:50%;
+        height:400px;
+        max-width:400px; 
+    
+      
+    }
+
+    .attribution {
+        display:none;
+    }
+}
