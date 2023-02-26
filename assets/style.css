@@ -33,6 +33,7 @@ body{
 
     font-size: 11px; 
     text-align: center; 
+    margin-top: 5%;
 
 }
 
@@ -49,13 +50,18 @@ body{
 }
 
 .breakdown div {
-    height:60px;
-    margin: 5% 8%;
+    height:80px;
+    margin: 2% 8%;
     border-radius: 10px;
     padding:3% 0;
     display:flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.breakdown > span +  div {
+   
+    margin-top:5%;
 }
 
 .breakdown > span {
@@ -81,6 +87,21 @@ body{
     color:hsla(224, 30%, 27%, 0.5);
 }
 
+button {
+
+    width:85%;
+    height:80px;
+    margin:auto;
+    margin-left:7.5%;
+    margin-top:3%;
+    border-radius:100px;
+    border-style: hidden;
+    background:hsl(224, 30%, 27%);
+    color:white;
+    font-size:22px;
+
+
+}
 
 
 /* Change max-width to 375 when ready to test for mobile */
@@ -107,7 +128,6 @@ body{
         align-items: center;
         color: hsla(0, 0%, 100%, 0.7);
         margin-bottom:8%;
-        padding-top:2%;
         
     }
 
@@ -119,6 +139,11 @@ body{
         border-radius: 50%;
         justify-content: center;
 
+    }
+
+    .final-score > span:first-child {
+
+        padding-top:5%;
     }
 
     .final-score div > span:first-child {
