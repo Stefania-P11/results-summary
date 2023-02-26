@@ -1,0 +1,121 @@
+
+
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+body{
+
+
+}
+
+.attribution { 
+
+    font-size: 11px; 
+    text-align: center; 
+
+}
+
+.attribution a { 
+    
+    color: hsl(228, 45%, 44%);
+
+}
+
+/* Change max-width to 375 when ready to test for mobile */
+
+@media screen and (max-width: 575px){ 
+   
+    /* Final Score Display Box */
+
+    body {
+
+        font-size: 18px;
+    }
+    .final-score,
+    .final-score div{
+        
+        height:400px;
+        background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        border-bottom-left-radius: 15%;
+        border-bottom-right-radius: 15%;
+        width:100%;
+        text-align: center;
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+        align-items: center;
+        color: hsla(0, 0%, 100%, 0.7);
+        
+    }
+
+    .final-score div {
+
+        height:150px;
+        background:linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+        width:25%;
+        border-radius: 50%;
+        justify-content: center;
+
+    }
+
+    .final-score div > span:first-child {
+        font-size: 60px;
+    }
+
+    .final-score div + span {
+
+        font-size: 28px;
+    }
+
+    .final-score p {
+
+        width:60%;
+    }
+    .white {
+
+        color:white;
+        font-weight: 700;
+    }
+
+    
+
+  
+
+
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
