@@ -1,7 +1,6 @@
 
-continueButton = document.querySelector('#continue')
-continueButton.addEventListener('click', changeColor)
+document.querySelector('#continue').addEventListener('click', changeColor)
 
 function changeColor() {
-    continueButton.classList.innerText = "Hi"
+    document.getElementById('continue').classList.add('activeButton')
 }
