@@ -103,6 +103,12 @@ button {
 
 }
 
+.activeButton {
+
+    background:linear-gradient(hsla(252, 100%, 67%, 1), hsla(241, 81%, 54%, 1));
+
+}
+
 
 /* Change max-width to 375 when ready to test for mobile */
 
