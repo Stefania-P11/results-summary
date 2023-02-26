@@ -141,7 +141,7 @@ button {
 
         height:150px;
         background:linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
-        width:25%;
+        width:150px;
         border-radius: 50%;
         justify-content: center;
 
