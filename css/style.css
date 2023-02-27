@@ -258,3 +258,19 @@ footer {
         display:none;
     }
 }
+
+@media (min-width:2160px){
+
+    .final-score,
+    section.breakdown {
+
+        scale: 2.5;
+        margin:15%;
+
+    }
+
+    .final-score {
+
+        margin-top:18%;
+    }
+}
