@@ -103,6 +103,12 @@ button {
 
 }
 
+button:hover {
+
+    background:linear-gradient(hsla(252, 100%, 67%, 1), hsla(241, 81%, 54%, 1));
+
+}
+
 .activeButton {
 
     background:linear-gradient(hsla(252, 100%, 67%, 1), hsla(241, 81%, 54%, 1));
