@@ -23,11 +23,11 @@ Users should be able to:
 
 ### Screenshots
 
-![Desktop](assets/screenshots/desktop.jpg)
-![Desktop Active State](assets/screenshots/desktop-active.jpg)
-![Mobile Part 1](assets/screenshots/mobile-1.jpg)
-![Mobile Part 2](assets/screenshots/mobile-2.jpg)
-![Mobile Active State](./assets/screenshots/mobile-active.jpg)
+![Desktop](assets/screenshots/desktop.png)
+![Desktop Active State](assets/screenshots/desktop-active.png)
+![Mobile Part 1](assets/screenshots/mobile-1.png)
+![Mobile Part 2](assets/screenshots/mobile-2.png)
+![Mobile Active State](assets/screenshots/mobile-active.png)
 
 
 
