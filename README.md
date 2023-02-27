@@ -45,23 +45,8 @@ Users should be able to:
 
 ### What I learned
  
- ...
+ I learned how to create a well-organized README file and how to incluse screenshots into it.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
 
 ### Continued development
