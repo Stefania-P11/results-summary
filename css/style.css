@@ -125,6 +125,7 @@ button:hover {
 
         font-size: 18px;
     }
+
     .final-score,
     .final-score div{
         
@@ -158,9 +159,10 @@ button:hover {
         padding-top:5%;
     }
 
-    .final-score div > span:first-child {
-        font-size: 60px;
-    }
+     .final-score div span:first-child {
+
+        font-size: 60px; 
+     }
 
     .final-score div + span {
 
@@ -230,7 +232,7 @@ footer {
 
 @media (min-width: 800px){
 
-    body {
+    main {
 
         display:flex;
         justify-content: center;
@@ -272,7 +274,7 @@ footer {
 
 @media (min-width:2160px){
 
-    body {
+    main {
 
         justify-content: space-around;
 
